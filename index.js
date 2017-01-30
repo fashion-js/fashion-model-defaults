@@ -13,7 +13,7 @@ module.exports = {
           var defaultValue = property.default;
 
           if ((defaultValue != null) && (defaultValue.constructor === Function)) {
-            defaultValue = defaultValue();
+            defaultValue = defaultValue.call(self);
           }
           self.set(name, defaultValue);
         }
