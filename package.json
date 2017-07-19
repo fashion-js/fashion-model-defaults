@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fashion-js/fashion-model-default-mixin.git"
+    "url": "https://github.com/fashion-js/fashion-model-defaults"
   },
   "keywords": [
     "fashion",
@@ -18,9 +18,9 @@
   "author": "Austin Kelleher, a@alk.im",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fashion-js/fashion-model-default-mixin/issues"
+    "url": "https://github.com/fashion-js/fashion-model-defaults/issues"
   },
-  "homepage": "https://github.com/fashion-js/fashion-model-default-mixin#readme",
+  "homepage": "https://github.com/fashion-js/fashion-model-defaults#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.12.2",
