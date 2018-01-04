@@ -120,7 +120,7 @@ describe('apply defaults tests', function() {
     });
   });
 
-  it('should apply defaults to models that have sub model properties', function () {
+  it.skip('should apply defaults to models that have sub model properties', function () {
     var Person = Model.extend({
       mixins: [DefaultsMixin],
       properties: {
